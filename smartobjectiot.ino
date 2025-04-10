@@ -10,14 +10,14 @@
 
 
 // Wi-Fi Credentials
-const char* ssid = "Machaya";
-const char* password = "machaya1312";
+const char* ssid = "Your Wifi SSID";
+const char* password = "Your wifi password";
 
 // Server Details
-const char* serverURL = "http://192.168.114.21/final/smart_object_api.php";
+const char* serverURL = "http://your-server-ip-address/final/smart_object_api.php";
 
 // MQTT Broker Details
-const char* mqttServer = "192.168.114.21"; 
+const char* mqttServer = "your-server-ip-address"; 
 const int mqttPort = 1883;
 const char* mqttTopic = "sensor/data/";
 
