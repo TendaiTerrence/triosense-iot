@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'http://localhost/final/smart_object_api.php';
+    const API_URL = 'http://your-server-ip-address/final/smart_object_api.php';
 
     // Display error messages in the UI
     function displayError(message) {
