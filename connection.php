@@ -1,7 +1,7 @@
 <?php
 $SERVER = 'localhost';
-$USERNAME = 'root';
-$PASSWORD = '';
+$USERNAME = 'your-username';
+$PASSWORD = 'your-password';
 $DB_NAME = 'iot_project';
 
 $con = new mysqli($SERVER, $USERNAME, $PASSWORD, $DB_NAME) or die("Could not establish connection to database");
