@@ -2,9 +2,10 @@
 # MAUTO Smart IoT Dashboard
 
 A comprehensive IoT system for monitoring environmental data with sensor nodes and a web-based dashboard.
-
+````
 ![Dashboard Preview](assets/dashboard-preview.png)
 
+```
 ## Features
 
 ### Sensor Node (ESP32)
