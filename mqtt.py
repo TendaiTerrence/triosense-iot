@@ -5,11 +5,11 @@ import time
 from threading import Thread, Event
 
 # MQTT server details
-server = '192.168.114.21'  
+server = 'your-server-ip-address'  
 port = 1883
 
 # REST API endpoint
-api_url = "http://192.168.114.21/final/smart_object_api.php"
+api_url = "http://your-server-ip-address/final/smart_object_api.php"
 
 # Shared storage for received messages
 message_queue = []
