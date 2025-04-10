@@ -130,6 +130,22 @@ curl -X POST -H "Content-Type: application/json" \
   -d '{"deviceID":1,"Temperature":25.5,"Humidity":60,"LightIntensity":850}' \
   http://your-server/smart_object_api.php
 ```
+## Machine Learning - Jupyter Notebook
+
+The repository includes a companion Jupyter Notebook, `IoT_Final_Project.ipynb`, which demonstrates:
+
+- 📈 Data analysis and visualization of sensor readings
+- 🧪 Basic preprocessing of IoT data (temperature, humidity, light intensity)
+- 📊 Time-series plotting using `matplotlib` and `pandas`
+- 💡 Insights into trends and environmental conditions captured by the sensor nodes
+
+This notebook is useful for quick testing, prototyping, or extending the system with machine learning or statistical analysis using the data collected from the sensor readings. 
+
+To run it:
+
+1. Install dependencies:
+   ```bash
+   pip install pandas matplotlib
 
 ## Troubleshooting
 
